@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+  }
+
+.headerWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+    }
+
+    .navLinks{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .btn {
+        background-color: white;
+        padding: 0.7rem 2rem;
+        color: rgb(0, 60, 128);
+        /* box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+          0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%); */
+        border-radius: 4px;
+        border: 2px solid rgb(0, 60, 128);
+        outline: none;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 0.9375rem;
+        line-height: 1.75;
+        letter-spacing: 0.02857em;
+        min-width: 64px;
+      }
+
+      .btn:hover{
+        background-color: rgb(0, 60, 128);
+        color: white;
+      }
+.oneGirlImg{
+    width: 400px;
+    height: 400px;
+}
+
+.imageWrap{
+    display: flex;
+    justify-content: center;
+    background-color: darkmagenta;
+    height: 500px;
+    align-items: center;
+    gap: 18px;
+}
