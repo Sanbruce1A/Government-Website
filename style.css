@@ -7,6 +7,14 @@
     text-decoration: none;
   }
 
+header{
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+  background-color: white;
+  width: 100%;
+}
+
 .headerWrap{
     display: flex;
     justify-content: space-between;
@@ -23,11 +31,11 @@
     .btn {
         background-color: white;
         padding: 0.7rem 2rem;
-        color: rgb(0, 60, 128);
+        color: #f04a00;
         /* box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
           0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%); */
         border-radius: 4px;
-        border: 2px solid rgb(0, 60, 128);
+        border: 2px solid #f04a00;
         outline: none;
         cursor: pointer;
         font-weight: 500;
@@ -38,7 +46,7 @@
       }
 
       .btn:hover{
-        background-color: rgb(0, 60, 128);
+        background-color: #f04a00;
         color: white;
       }
 .oneGirlImg{
@@ -53,4 +61,68 @@
     height: 500px;
     align-items: center;
     gap: 18px;
+}
+
+.heroWrap{
+  position: relative;
+}
+
+.heroImg{
+  height: 550px;
+  width: 100%;
+  object-fit: cover;
+  
+}
+
+.heroOverlay{
+  background-color: rgba(0, 0, 0, 0.60);
+  height: 550px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+.heroText{
+  position: absolute;
+  top: 0;
+  margin-left: 100px;
+  width: 450px;
+  margin-top: 120px;
+  color: white;
+}
+
+.heroText h2{
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.1;
+}
+
+.heroText p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.2;
+  margin-top: 20px;
+}
+
+.heroBtn {
+  background-color: #f04a00;
+  padding: 0.7rem 2rem;
+  color: white;
+  /* box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%),
+    0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%); */
+  border-radius: 4px;
+  border: 2px solid #f04a00;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 1.75;
+  letter-spacing: 0.02857em;
+  min-width: 64px;
+  margin-top: 30px;
+}
+
+.heroBtn:hover{
+  background-color: rgb(255, 255, 255);
+  color: #f04a00;
 }
